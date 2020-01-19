@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding: 3rem;
+}
+
+.container {
+  width: 30%;
+  -webkit-box-shadow: 0.3rem 0.3rem 0.3rem rgb(75, 75, 75);
+  box-shadow: 0.3rem 0.3rem 0.3rem rgb(75, 75, 75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+label {
+  display: block;
+  -webkit-box-shadow: 0.1rem, 0.1rem, 0.2rem, rgb(65, 65, 65);
+  box-shadow: 1rem, 1rem, 2rem, rgb(65, 65, 65);
+  margin: 1rem;
+  padding: 1rem 1rem;
+}
+
+input[type="number"] {
+  text-align: right;
+  border: none;
+}
+
+input {
+  float: right;
+}
+span {
+  font-weight: bold;
+}

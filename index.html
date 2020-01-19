@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CalorieCountr</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Please fill in the form below as accurately as possible.</h1>
+
+    <div class="container">
+      <label
+        >Female:
+        <input id="female" type="radio" name="gender" onchange="calsPerDay()" />
+      </label>
+      <label
+        >Male:
+        <input
+          id="male"
+          type="radio"
+          name="gender"
+          onchange="calsPerDay()"
+          checked
+        />
+      </label>
+      <label
+        >Age:
+        <input id="age" type="number" oninput="calsPerDay()" value="25" />
+      </label>
+      <label
+        >Height:
+        <input id="height" type="number" oninput="calsPerDay()" value="70" />(in
+        centimetres)
+      </label>
+      <label
+        >Weight:
+        <input
+          id="weight"
+          type="number"
+          oninput="calsPerDay()"
+          value="100"
+        />(in kilograms)
+      </label>
+      <label
+        >Basal Metabolic Rate:
+        <span id="totalCals"></span>
+        kCal per day.
+      </label>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
